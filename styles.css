@@ -97,10 +97,11 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .background {
     position: absolute;
     width: 100%;
+    height: auto !important;
     top: 25%;
     left: 0;
     z-index: -1;
@@ -109,6 +110,7 @@ button:hover {
 
   img {
     display: block;
+    aspect-ratio: auto;
     width: 100% !important;
     max-width: 100% !important;
     height: auto !important;
